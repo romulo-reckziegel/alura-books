@@ -1,0 +1,122 @@
+.carrossel__title {
+    background-color: var(--bg-second-color);
+    color: var(--menu-title);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card {
+    background: var(--bg-second-color);
+    margin: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em 1em;
+    
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6em;
+}
+
+.description__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--menu-title);
+}
+
+.description__title__book {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--book-title);
+    padding: 1em 0;
+}
+
+.description__text {
+    font-size: 14px;
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons__link {
+    background-color: var(--menu-title);
+    font-weight: 700;
+    color: var(--bg-second-color);
+    padding: 1em 1.7em;
+    text-decoration: none;
+
+}
+
+.stars {
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__title {
+        font-size: 26px;
+    }
+    .swiper {
+        width: 60%;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+    }
+    .card {
+        width: 60%;
+        margin: 1.5em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossell__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .card {
+        margin-top: 3em;
+        
+    }
+
+    .description__title {
+        font-size: 32px;
+        
+    }
+
+    .swiper-pagination {
+        margin-bottom: 0.5em;
+    }
+
+    .swiper {
+        width: 80%;
+    }
+
+}

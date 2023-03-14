@@ -1,0 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topics.css");
+@import url("styles/contact.css");
+@import url("styles/footer.css");
+
+:root {
+    --bg-color: #E5E5E5;
+    --bg-second-color: #FFFFFF;
+    --menu-item: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --menu-title: #EB9B00;
+    --book-title: #002F52;
+    --rodape-title: #858585;
+    --rodape-item: #474646;
+
+    --font-main: 'Poppins';
+    --font-logo: 'Josefin Sans';
+    
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+}
